@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SwifLearn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="subject_arrays">
+        <item>Science</item>
+        <item>Maths</item>
+        <item>English</item>
+    </string-array>
+
+
+</resources>

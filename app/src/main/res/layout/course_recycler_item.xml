@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/courseTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Maths"/>
+
+            <TextView
+                android:id="@+id/lessionTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Lession Title"/>
+
+            <TextView
+                android:id="@+id/lessionDescTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/colorAccent"
+                android:text="Lession Short Desc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#8D8D8D"
+                android:text="Taken on"/>
+
+            <TextView
+                android:id="@+id/dateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/light_blue"
+                android:text="24th Mar, 4PM - 5PM"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#8D8D8D"
+                android:text="Taken by"/>
+
+            <TextView
+                android:id="@+id/studentTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Manisha Bhardwaj"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/notesTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class Notes"
+                    android:textColor="@color/light_blue"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/light_blue_10dp_round_corner_stroke"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="30dp"/>
+            </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          app:cardCornerRadius="10dp"
+          app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+        <TextView
+            android:id="@+id/watchTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/light_blue_10dp_round_corner_solid"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Watch Again"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

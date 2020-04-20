@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+    </group>
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:title="Schedule a Trial Class"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_study"
+            android:title="Upcoming Live Classes"
+            android:icon="@drawable/ic_circle_eye_black_24dp" />
+
+        <item
+            android:id="@+id/nav_video"
+            android:title="Your Past Classes"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_practiceTest"
+            android:title="Practice Tests"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+
+        <item
+            android:id="@+id/nav_courses"
+            android:title="Explore Courses"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_pricing"
+            android:title="Pricing"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_blog"
+            android:title="Blog"
+            android:icon="@drawable/ic_circle_eye_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_faqs"
+            android:title="FAQs"
+            android:icon="@drawable/ic_circle_eye_black_24dp" />
+
+
+    </group>
+
+
+
+
+
+</menu>
